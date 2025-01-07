@@ -7,47 +7,6 @@ Esta es una prueba desarrollada en Angular 17 que consiste en una aplicación de
 1. **Pantalla de Login**: Un formulario con los campos de correo electrónico y contraseña.
 2. **Pantalla de Éxito (Success)**: Al enviar el formulario correctamente, se redirige a una pantalla de éxito con un GIF animado y un botón que muestra más confeti.
 
-## Estructura del Proyecto
-
-El proyecto está organizado de la siguiente manera:
-
-src/
-├── app/
-│   ├── features/
-│   │   ├── login/
-│   │   │   ├── login.component.ts
-│   │   │   ├── login.component.html
-│   │   │   ├── login.component.scss
-│   │   ├── success/
-│   │   │   ├── success.component.ts
-│   │   │   ├── success.component.html
-│   │   │   ├── success.component.scss
-│   ├── shared/
-│   │   ├── input/
-│   │   │   ├── input.component.ts
-│   │   │   ├── input.component.html
-│   │   │   ├── input.component.scss
-│   │   ├── button/
-│   │   │   ├── button.component.ts
-│   │   │   ├── button.component.html
-│   │   │   ├── button.component.scss
-│   ├── app.component.html
-│   ├── app.component.scss
-│   ├── app.component.ts
-│   ├── app.routes.ts
-│   ├── app.config.ts
-├── assets/
-│   ├── gifs/
-│   │   ├── success.webp
-│   ├── icons/
-│   │   ├── check.svg
-│   │   ├── eye.svg
-│   │   ├── eye-off.svg
-├── styles/
-│   ├── variables.scss
-│   ├── styles.scss
-
-
 ## Componentes Principales
 
 ### 1. **LoginComponent**
