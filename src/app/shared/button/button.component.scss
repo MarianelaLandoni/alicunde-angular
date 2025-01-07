@@ -1,0 +1,29 @@
+.btn {
+  width: 100%;
+  color: var(--white);
+  background-color: var(--primary);
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.125rem;
+  padding: 0.625rem 1.25rem;
+  text-align: center;
+  font-weight: 500;
+
+  &:focus {
+    transform: scale(1.02);
+    box-shadow: var(--btn-shadow);
+  }
+
+}
+
+.btn--hover {
+  background: var(--primary-hover);
+  transition: ease 0.3s;
+}
+
+.btn--disabled {
+  background: var(--bg-disabled);
+  color: var(--white);
+  cursor: not-allowed;
+  opacity: 0.6;
+}
