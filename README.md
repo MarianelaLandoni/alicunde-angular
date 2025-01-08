@@ -58,3 +58,18 @@ Un componente reutilizable para crear botones estilizados que permiten deshabili
 
 ### Estilos
 Los estilos se gestionan principalmente en archivos .scss. Se utilizan variables para facilitar la personalización de los estilos.
+
+- Desktop: 
+![image](https://github.com/user-attachments/assets/e29533d4-90d8-4405-8198-da34fcb8009d)
+
+Login - Validaciones del formulario:
+![image](https://github.com/user-attachments/assets/af650711-3835-47a4-9d82-5de89d02b590)
+
+Login - Campos correctos:
+![image](https://github.com/user-attachments/assets/4d27e45f-fa4e-4107-afa9-67407254dd2e)
+
+Success:
+![image](https://github.com/user-attachments/assets/f26298aa-7745-4741-ae3e-4df2bc8f1af9)
+
+
+
