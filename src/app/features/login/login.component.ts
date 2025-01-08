@@ -32,6 +32,8 @@ export class LoginComponent {
   onSubmit() {
     if (this.loginForm.valid) {
      this.router.navigate(['/success']);
+    } else {
+      this.loginForm.markAllAsTouched();
     }
   }
 
