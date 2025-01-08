@@ -11,7 +11,7 @@ describe('LoginComponent', () => {
       imports: [LoginComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(LoginComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
@@ -19,5 +19,15 @@ describe('LoginComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('should mark the form as invalid with empty controls', () => {
+    component.loginForm.setValue({ email: '', password: '' });
+    expect(component.loginForm.valid).toBeFalse();
+  });
+
+  it('should mark the form as valid with correct controls', () => {
+    component.loginForm.setValue({ email: 'marianela@example.com', password: 'test123456' });
+    expect(component.loginForm.valid).toBeTrue();
   });
 });
